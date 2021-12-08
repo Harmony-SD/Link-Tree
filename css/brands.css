@@ -71,6 +71,14 @@ button:hover,
   height: 20px;
 }
 
+.icon-white {
+  padding: 0px 8px 3.5px 0px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  fill: #FFFFFF;
+}
+
 
 /* Brand Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -220,15 +228,12 @@ button:hover,
   filter: brightness(90%) }
 
 /* Producthunt */
-.button.button-producthunt {
-  color: #DA552F;
+.button.button-trabajos {
+  color: #424242;
   border-style: solid;
-  border-color: #DA552F;
+  border-color: #424242;
   border-width: 2px;
   background-color: #FFFFFF }
-.button.button-producthunt:hover,
-.button.button-producthunt:focus {
-  filter: brightness(90%) }
 
 /* Reddit */
 .button.button-reddit {
@@ -359,9 +364,10 @@ button:hover,
   filter: brightness(90%) }
 
 /* Xing */
-.button.button-xing {
+.button.button-RDE {
   color: #FFFFFF;
-  background-color: #026466 }
+  background-color: #026466;
+  width: 730px; }
 .button.button-xing:hover,
 .button.button-xing:focus {
   filter: brightness(90%) }
